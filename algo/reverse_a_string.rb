@@ -3,7 +3,14 @@
 # comes with Ruby!
 
 def reverse_a_string(string)
-
+  order = string.split(//)
+  reverse = []
+  action = -1
+  order.each do 
+    reverse << order[action]
+    action -= 1
+  end
+  reverse.join
 end
 
 # Driver code - don't touch anything below this line.

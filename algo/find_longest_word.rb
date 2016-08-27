@@ -3,7 +3,7 @@
 def find_longest_word(sentence)
   arr = sentence.split(" ")
   longest = " "
-  arr.each do | word |
+  arr.each do |word|
     if word.length > longest.length
       longest = word
      end

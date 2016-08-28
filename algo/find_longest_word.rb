@@ -2,7 +2,7 @@
 
 def find_longest_word(sentence)
   sentence_minus = sentence.sub(/[?.]/, '')
-  arr = sentence_minus.split(" ")
+  arr = sentence_minus.split(/ /)
   longest = ""
   arr.each do |word|
     if word.length > longest.length
